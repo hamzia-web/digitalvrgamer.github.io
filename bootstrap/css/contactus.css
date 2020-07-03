@@ -1,0 +1,48 @@
+.contactus-body {
+	font-family: Georgia;
+	/* margin: 0 auto; */
+	background-color: #1a73e8;
+}
+
+.mb35 {
+	margin-bottom: 35px;
+}
+
+#exampleFormControlTextarea {
+	resize: none;
+}
+
+.clearForm {
+	text-decoration: underline;
+	color: white;
+	display: flex;
+}
+
+.contactUsForm a:hover {
+	color: white;
+}
+
+.border-light {
+	border-color: rgb(238, 106, 17) !important;
+}
+
+label {
+	text-align: left;
+	display: block;
+	color: white;
+}
+
+/* Desktop  and ipad view*/
+@media screen and (min-width: 769px) {
+	.form-control {
+		width: 50%;
+	}
+
+	.btn-block {
+		width: 50% !important;
+	}
+
+	.pull-right {
+		margin-left: -120px;
+	}
+}
