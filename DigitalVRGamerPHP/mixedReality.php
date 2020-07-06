@@ -21,11 +21,9 @@
                     <img src="images/MR-01.png" class="img-fluid">
                 </div>
                 <div class="col-sm-12 col-md-4">
-                    <p class="mt-2">Integrating Mixed reality in healthcare is a common occurrence in 2020. The sphere is constantly growing encouraging lots of medical institutions to put up in it.
+                    <p class="mt-2">Mixed Reality (MR), sometimes referred to as hybrid reality, is the merging of real and virtual worlds to produce new environments and visualizations where physical and digital objects co-exist and interact in real time. It means placing new imagery within a real space in such a way that the new imagery is able to interact, to an extent, with what is real in the physical world we know. The key characteristic of MR is that the synthetic content and the real-world content are able to react to each other in real time. Integrating Mixed reality in healthcare is a common occurrence in 2020. The sphere is constantly growing encouraging lots of medical institutions to put up in it.
                     Reports and Data predicted that MR in the healthcare market will attain a value of $7+ Billion by 2026. Healthcare organizations decide to invest in MR after examining all the advantages it brings in. 
-                    In this post, we will show how medical institutions can benefit from AR and where it can be implemented. 
-                    Mixed reality (MR) is the merging of real and virtual worlds to produce new environments and visualizations, where physical and digital objects co-exist and interact in real time. Mixed reality does not exclusively take place in either the physical or virtual
-                    Mixed Reality. </p>
+                    </p>
                 </div>
             </div>
         </div><br><br>

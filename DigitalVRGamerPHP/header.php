@@ -32,6 +32,7 @@
                     <a class="burger-nav"></a>
                     <h2>Main Navigation</h2>
                     <ul>
+                    <li class="active"><a href="aboutUs.php">About Us</a></li>
                         <li class="active"><a href="augmentedReality.php">AR</a></li>
                         <li><a href="virtualReality.php">VR</a></li>
                         <li><a href="mixedReality.php" >MR</a></li>
@@ -49,16 +50,16 @@
     <!-- Call, whatsapp and Email section start-->
     <div class="tel-number-band"><a href="tel:+91-7846062791"
             onclick="ga('send', {hitType: 'event', eventCategory: 'PhoneCall', eventAction: 'Call', eventLabel: 'Slider call'});"><img
-                src="images/call.png" alt="Call me"></a>
+                src="images/call.png" alt="Call me" title="7846062791"></a>
 
          <a href="https://wa.link/fhbr4f" target="_blank">
-            <img src="images/whatsapp.png" alt="click to chat"/>
+            <img src="images/whatsapp.png" alt="click to chat" title="8368725779"/>
         </a>
     </div>
 
     <div class="email-band">
         <a href="mailto:digitalvrgamer@gmail.com">
-            <img src="images/email.png" alt="email me">
+            <img src="images/email.png" alt="email me" title="digitalvrgamer@gmail.com">
         </a>
     </div>
     <!-- Call, whatsapp and Email section end-->

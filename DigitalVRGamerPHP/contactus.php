@@ -21,12 +21,11 @@
 
             <label>Your Name <span class="required">*</span></label>
             <input type="text" name="name" class="form-control mb-4" required placeholder="Name"
-                oninvalid="this.setCustomValidity('Please enter name')" oninput="this.setCustomValidity('')" autofocus>
+                oninvalid="this.setCustomValidity('Please enter valid name')" oninput="this.setCustomValidity('')" autofocus>
 
             <label>Email Address <span class="required">*</span></label>
             <input type="email" name="email" class="form-control mb-4" placeholder="example@gmail.com" required
-                oninvalid="this.setCustomValidity('Please enter email')" oninput="this.setCustomValidity('')"
-                autofocus>
+                oninvalid="this.setCustomValidity('Please enter valid email')" oninput="this.setCustomValidity('')" autofocus>
 
             <label>Address <span class="required">*</span></label>
             <input type="text" name="address" class="form-control mb-4" placeholder="Address" required
@@ -38,9 +37,9 @@
 
             <label>Phone Number<span class="required">*</span></label>
             <input type="tel" name="number" class="form-control mb-4" placeholder="10-digit mobile number" required
-                oninvalid="this.setCustomValidity('Please enter phone number')" oninput="this.setCustomValidity('')"
+                oninvalid="this.setCustomValidity('Please enter valid phone number')" oninput="this.setCustomValidity('')"
                 pattern="[6789][0-9]{9}" data-toggle="tooltip" data-placement="top"
-                title="Phone number must starts with 6|7|8|9 followed by 9 digits">
+                title="Phone number must starts with 6|7|8|9 followed by 9 digits" min="10" maxlength="10">
 
             <label>Message </label>
             <div class="form-group">
@@ -58,4 +57,5 @@
     <?php include "footer.php"; ?>
 
 </body>
+
 </html>

@@ -29,14 +29,7 @@
                     <img src="images/AR-01.jpg" class="img-fluid">
                 </div>
                 <div class="col-sm-12 col-md-4 col-lg-4">
-                    <p class="mt-2">Engage your potential customers with stunning hyper-realistic premium experience anywhere anytime using VR. Boost your sales, improve decision making and increase customer satisfaction. Augmented reality (AR) adds digital elements to a live view often by using the camera on a smartphone. Examples of augmented reality experiences include Snapchat lenses and the game Pokemon Go. Our augmented reality products – SMACAR app and SMACAR Studio, enables educational
-                        institutions
-                        in
-                        providing engaging and interactive learning experiences for students. By combining augmented
-                        reality
-                        with the education sector, our products help in creating magical experiences for everyone
-                        involved
-                        and creates scenarios that enhance the learning environment.</p>
+                    <p class="mt-2">Augmented Reality (AR) is a live, direct or indirect view of a physical, real-world environment whose elements are augmented (or supplemented) by computer-generated sensory input such as sound, video, graphics or GPS data. As AR exists on top of our own world it provides as much freedom as you are given within your normal life. AR utilizes your existing reality and adds to it utilizing a device of some sort. Mobile and tablets are the most popular mediums of AR now, through the camera, the apps put an overlay of digital content into the environment. Custom headsets are also being used. As popular AR examples there are Pokemon Go and Snapchat’s new AR bitmojis.</p>
                 </div>
             </div>
         </div><br><br>

@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html>
 <html lang="en">
-    
+
 <head>
-<meta name="description" content="Digital VR Gamer is India's leading Augmented Reality development company with innovative ideas. We are also expertise in offering VR & MR solutions as per the need.">
-    <title>Digital VR Gamer</title> 
+    <meta name="description"
+        content="Digital VR Gamer is India's leading Augmented Reality development company with innovative ideas. We are also expertise in offering VR & MR solutions as per the need.">
+    <title>Digital VR Gamer</title>
     <link rel="icon" href="images/dvr-fav-icon.png" type="image/icon type">
 </head>
 
 <body>
 
-<!-- 
+    <!-- 
 Use require when the file is required by the application.
 Use include when the file is not required and application should continue when file is not found. 
 -->
 
-<!-- Including Header page -->
-<?php include 'header.php'; ?>
+    <!-- Including Header page -->
+    <?php include 'header.php'; ?>
 
     <h2>
         <i>
@@ -28,14 +29,14 @@ Use include when the file is not required and application should continue when f
 
     <div id="video-container">
         <video id="myvideo" autoplay muted loop>
-            <source src="videos/iPhone 11 Pro.mp4" type="video/mp4">
+            <source src="videos/dvr.mp4" type="video/mp4">
         </video>
     </div>
 
     <div class="wrapper">
 
-       <!-- Virtual Reality start-->
-       <h1 class="textParagraph">Virtual Reality</h1>
+        <!-- Virtual Reality start-->
+        <h1 class="textParagraph">Virtual Reality</h1>
         <center><img src="images/line.png"></center>
         <section id="featured">
             <ul>
@@ -159,31 +160,6 @@ Use include when the file is not required and application should continue when f
         </section>
         <!-- Mixed Reality end -->
 
-        <!-- Rental Service start -->
-        <h1 class="textParagraph">Rental Service</h1>
-        <center><img src="images/line.png"></center>
-        <section id="featured">
-            <ul>
-                <li>
-                    <a href="rentalServices.php">
-                        <img src="images/rental-home-01.jpg">Oculus Rift</a>
-                </li>
-                <li>
-                    <a href="rentalServices.php">
-                        <img src="images/rental-home-02.png">HTC Vive</a>
-                </li>
-                <li>
-                    <a href="rentalServices.php">
-                        <img src="images/rental-home-03.jpg">MSI Laptop i7</a>
-                </li>
-                <li>
-                    <a href="rentalServices.php">
-                        <img src="images/rental-home-04.jpg">Gaming PC</a>
-                </li>
-            </ul>
-        </section>
-        <!-- Rental Service start end -->
-
         <!-- Different Events starts-->
         <h1 class="textParagraph">Events</h1>
         <center><img src="images/line.png"></center>
@@ -208,6 +184,31 @@ Use include when the file is not required and application should continue when f
             </ul>
         </section>
         <!-- Different Events end-->
+
+        <!-- Rental Service start -->
+        <h1 class="textParagraph">Rental Service</h1>
+        <center><img src="images/line.png"></center>
+        <section id="featured">
+            <ul>
+                <li>
+                    <a href="rentalServices.php">
+                        <img src="images/rental-home-01.jpg">Oculus Rift</a>
+                </li>
+                <li>
+                    <a href="rentalServices.php">
+                        <img src="images/rental-home-02.png">HTC Vive</a>
+                </li>
+                <li>
+                    <a href="rentalServices.php">
+                        <img src="images/rental-home-03.jpg">MSI Laptop i7</a>
+                </li>
+                <li>
+                    <a href="rentalServices.php">
+                        <img src="images/rental-home-04.jpg">Gaming PC</a>
+                </li>
+            </ul>
+        </section>
+        <!-- Rental Service start end -->
 
         <!-- IT Services start-->
         <h1 class="textParagraph">IT Services</h1>
@@ -236,8 +237,9 @@ Use include when the file is not required and application should continue when f
     </div>
     <!-- End homepage content -->
 
-<!-- Including Footer page-->
-<?php include "footer.php"; ?>
+    <!-- Including Footer page-->
+    <?php include 'footer.php'; ?>
 
 </body>
+
 </html>

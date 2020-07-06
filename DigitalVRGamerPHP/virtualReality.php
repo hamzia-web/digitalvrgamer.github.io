@@ -22,8 +22,8 @@
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <p class="mt-2">
-                    Virtual Reality is really a new communication platform. By feeling truly present, you can share unbounded spaces and experiences with the people in your life.”
-                    Mark Zuckerberg, CEO Facebook. The biggest misconception is that there’s only games in VR. Partly that’s because if you have an HTC Vive or an Oculus Rift the coolest things are games. I’ve watched many things from music, to journalism, to narrative experiences (we used to call them movies), to sports, to education. VR isn’t just for games, and if you are at Disney you know that, its new Disneyland in China was designed in VR, for instance, and Ford has a special VR room at its R&D lab in Silicon Valley to design cars for the future
+                    Virtual Reality (VR) is an immersive experience also called a computer-simulated reality. It refers to computer technologies using reality headsets to generate the realistic sounds, images and other sensations that replicate a real environment or create an imaginary world. VR is a way to immerse users in an entirely virtual world. A true VR environment will engage all five senses (taste, sight, smell, touch, sound), but it is important to say that this is not always possible.
+                    Today, it is easy to say that VR is a well-established new reality-tech. Moreover, after years of popularity in the gaming industry, we are now seeing this technology into more practical applications. The market and the industry are still excited about this tech trend and further progress is expected in the near future
                     </p>
                 </div>
             </div>
