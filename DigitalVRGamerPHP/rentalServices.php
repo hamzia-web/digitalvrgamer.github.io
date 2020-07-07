@@ -33,13 +33,7 @@
                     <img src="images/RS-02.jpg" class="img-fluid">
                 </div>
                 <div class="col-sm-12 col-md-4">
-                    <p class="mt-2">Augmented Reality marketing might sound to you like something that some Bantha
-                        marketer might use in Star Wars and not something you can use right now, but it actually is. In
-                        fact, people are using it right now. For example, predictions are showing that the market for AR
-                        and VR could be as high as 150 billion in revenue by 2020. That’s hardly nothing or pie in the
-                        sky futurism. Augmented reality and virtual reality are upon us. So, the billion dollar question
-                        is: how do you benefit? Here are some ways that you could use augmented or virtual reality to
-                        market your business.</p>
+                    <p class="mt-2">Windows laptops with Core i7 processors are considered to be of great help to those who do not want to lose a fortune of their earnings but also need a high-tech device for work. Capable of doing everything that the Core i5 can do, windows i7 laptops come with better features for you. From editing to heavy multiple application usage, these laptops are best suited for the people into heavy programming, or the people that require the heavy usage of multiple applications and software to get through with the work. These laptops will not only fasten the speed of your work but will also get you the best gaming experience ever. Lay your hands on the latest versions of Windows i7 in various screen sizes. For individuals, freelancers and corporate.</p>
                 </div>
             </div>
         </div> <br><br> 
@@ -62,33 +56,24 @@
                     <img src="images/RS-04.png" class="img-fluid">
                 </div>
                 <div class="col-sm-12 col-md-4">
-                    <p class="mt-2">Augmented Reality marketing might sound to you like something that some Bantha
-                        marketer might use in Star Wars and not something you can use right now, but it actually is. In
-                        fact, people are using it right now. For example, predictions are showing that the market for AR
-                        and VR could be as high as 150 billion in revenue by 2020. That’s hardly nothing or pie in the
-                        sky futurism. Augmented reality and virtual reality are upon us. So, the billion dollar question
-                        is: how do you benefit? Here are some ways that you could use augmented or virtual reality to
-                        market your business.</p>
+                    <p class="mt-2">
+                    <b>Digital VR Gamer</b> features all original titles for a truly immersive gaming experience. You won’t find any of our role play virtual reality games elsewhere or on any other gaming platform. Get off that Xbox and put yourself in the middle of all the action at our gaming arcades.
+                    Explore the best of Virtual Reality games at Digital VR Gamer. We are an experience beyond imagination. Step in and get ready with the guns to shoot the Alien Bugs that’s approaching you! Show your chivalry by shooting the maximum number of bugs, smaller & bigger. Show the world you are the Leader!
+                    </p>
                 </div>
             </div>
         </div><br><br>
         <div class="card">
             <div class="row text-black">
                 <div class="col-sm-12 col-md-8">
-                    <img src="images/RS-07.jpg" class="img-fluid">
+                    <img src="images/RS-05.jpg" class="img-fluid">
                 </div>
                 <div class="col-sm-12 col-md-4">
-                    <p class="mt-2">Augmented Reality marketing might sound to you like something that some Bantha
-                        marketer might use in Star Wars and not something you can use right now, but it actually is. In
-                        fact, people are using it right now. For example, predictions are showing that the market for AR
-                        and VR could be as high as 150 billion in revenue by 2020. That’s hardly nothing or pie in the
-                        sky futurism. Augmented reality and virtual reality are upon us. So, the billion dollar question
-                        is: how do you benefit? Here are some ways that you could use augmented or virtual reality to
-                        market your business.</p>
+                    <p class="mt-2">Kinect originated as a means to eliminate the game controller from Microsoft's Xbox video game hardware, competing with the Nintendo Wii's own motion-sensing capabilities, hoping to draw a larger audience beyond traditional video game players to the Xbox. Kinect first launched as an add-on for the Xbox 360 in November 2010, and within a few months more than 10 million units had been sold, making it one of the fastest-selling computer hardware products at the time. However, video games had to be developed to specifically incorporate the Kinect's features, and the bulk of games released with Kinect support were family-friendly titles.
+                    As Microsoft developed the successor console, the Xbox One, the company had planned to make the second generation of Kinect hardware a required component of the console, giving a reason for developers to seek to take advantage of it.</p>
                 </div>
             </div>
         </div>
-
     </div>
     <!-- Body section end -->
 
