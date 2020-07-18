@@ -1,0 +1,50 @@
+label {
+    text-align: left;
+    display: block;
+    font-family: Georgia;
+    color: teal;
+}
+
+.form-control input[type="text"], .form-control input[type="password"] {
+  background-color: red  !important;
+}
+
+.customDate{
+  width: 40%;
+}
+
+body{
+  background-color: grey lighten-2;
+  font-family: Georgia;
+  /* font-size: 17px; */
+}
+
+footer{
+  font-family: Georgia;
+  /* font-size: 18px; */
+}
+
+.navbar {
+  padding: 1.5rem 3rem;
+}
+
+
+/* Desktop  and ipad view: “If [device width] is greater than or equal to 769px, then do {…}*/
+@media screen and (min-width: 769px) {
+	.patientForm {
+		width: 50%;
+    }
+    
+/* Tablet screen */
+@media screen and (max-width: 700px) {
+  .patientForm {
+    width: 50%;
+  }
+}
+
+/* Mobile screen */
+@media screen and (max-width: 480px) {
+  .patientForm {
+    width: 100%;
+  }
+}
