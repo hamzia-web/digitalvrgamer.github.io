@@ -12,8 +12,8 @@
     <!--table starts -->
 	<h2 class="text-center my-2">Patient Record</h2>
 	<center><img src="images/line.png"></center>
-	<table id="example" class="display nowrap mt-2" style="width:100%">
-		<thead>
+	<table id="example" class=" table table-bordered display nowrap mt-2" style="width:100%">
+		<thead class="thead-dark">
 			<tr>
 				<th><b>S.No.</b></th>
 				<th><b>Patient Name</b></th>
