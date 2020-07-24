@@ -58,10 +58,12 @@
             <script>
                 console.log("Data not inserted successfully");
             </script>
-            <?php }
+       <?php }
     } ?>
 
-<?php include 'footer.php'; ?>    
+<!-- Including Footer -->
+<?php include 'footer.php'; ?>   
+ 
 </body>
 </html>
 

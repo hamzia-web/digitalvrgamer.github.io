@@ -11,7 +11,7 @@
      <link href="css/style.css" type="text/css" rel="stylesheet">
      <link href="css/jquery.dataTables.min.css" type="text/css" rel="stylesheet">
      <link href="css/buttons.dataTables.min.css" type="text/css" rel="stylesheet">
-     
+  
 </head>
 <body> 
       <!-- Color Code: blue-gradient peach-gradient aqua-gradient light-blue darken-4  deep-orange darken-2-->

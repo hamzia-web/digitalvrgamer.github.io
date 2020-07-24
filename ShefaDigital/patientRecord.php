@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-	<title> Patient Record</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Record</title>
 </head>
 
 <body>
@@ -69,7 +71,7 @@
 						<a class="nav-link" href="patientRecord.php">Patient Record</a>
 					</li>
 				</ul></p>
-		</div>     <!-- Grid column -->
+		 </div>  <!-- Grid column -->
 		</div>  <!-- Grid row -->
 	</div>
 	<!-- Footer Text -->
@@ -80,7 +82,6 @@
 
     <!-- js files for Datatables-->
 	<script src="js/datatableJs/jquery-3.5.1.js"></script>
-	<!-- <script src="js/datatableJs/datatables.min.js"></script> --> 
 	<script src="js/datatableJs/jquery.dataTables.min.js"></script>
 	<script src="js/datatableJs/dataTables.buttons.min.js"></script>
 	<script src="js/datatableJs/buttons.flash.min.js"></script>
@@ -98,7 +99,7 @@
 					'excel', 'pdf', 'copy', 'print'
 				]
 			});
-		});
+		 });
 	</script>
 
 </body>

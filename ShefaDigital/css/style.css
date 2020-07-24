@@ -1,7 +1,27 @@
+
+/* Variables in CSS should be declared within a CSS selector that defines its scope. 
+For a global scope you can use either the :root or the body selector.
+- The variable name must begin with two dashes (--) and is case sensitive!
+-var(custom-name, value) 
+*/
+
+:root{
+  --font-famlily: Georgia;
+}
+
+/* The ::selection selector matches the portion of an element that is selected by a user.
+Only a few CSS properties can be applied to the ::selection selector: color, background, cursor, and outline.
+ */
+::selection
+{
+  background-color: teal;
+  color: white;
+}
+
 label {
     text-align: left;
     display: block;
-    font-family: Georgia;
+    font-family: var(--font-famlily);
     color: teal;
 }
 
@@ -15,13 +35,11 @@ label {
 
 body{
   background-color: grey lighten-2;
-  font-family: Georgia;
-  /* font-size: 17px; */
+  font-family: var(--font-famlily);
 }
 
 footer{
-  font-family: Georgia;
-  /* font-size: 18px; */
+  font-family: var(--font-famlily);
 }
 
 .navbar {

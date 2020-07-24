@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- <base href="images/"> -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Services</title>
+    
 </head>
 <body>
 <!-- Including header -->
@@ -97,5 +99,6 @@
 
 <!-- Including header -->
 <?php include 'footer.php'; ?>  
+
 </body>
 </html>
