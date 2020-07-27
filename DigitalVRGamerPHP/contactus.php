@@ -9,10 +9,10 @@
 <body class="contactus-body">
 
     <!-- Include Header  -->
-    <?php include "header.php" ?>
+    <?php include 'header.php'; ?>
 
     <!-- Default form contact -->
-    <form class="text-center border border-light p-5 contactUsForm" action="confirmation.php" method="POST"
+    <form class="text-center border border-light p-5 contactUsForm" action="confirmation" method="POST"
         autocomplete="off">
 
         <div class="contactUsForm">
@@ -54,7 +54,7 @@
     <!-- Default form contact -->
 
     <!-- Including Footer page-->
-    <?php include "footer.php"; ?>
+    <?php include 'footer.php'; ?>
 
 </body>
 

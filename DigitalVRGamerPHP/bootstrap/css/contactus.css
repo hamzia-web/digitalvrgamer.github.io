@@ -1,55 +1,55 @@
 .contactus-body {
-	font-family: Georgia;
-	background-color: #1a73e8;
+  font-family: Georgia;
+  background-color: #1a73e8;
 }
 
 .mb35 {
-	margin-bottom: 35px;
+  margin-bottom: 35px;
 }
 
 #exampleFormControlTextarea {
-	resize: none;
+  resize: none;
 }
 
 .clearForm {
-	text-decoration: underline;
-	color: white;
-	display: flex;
+  text-decoration: underline;
+  color: white;
+  display: flex;
 }
 
 .contactUsForm a:hover {
-	color: white;
+  color: white;
 }
 
 .border-light {
-	border-color: rgb(238, 106, 17) !important;
+  border-color: rgb(238, 106, 17) !important;
 }
 
 label {
-	text-align: left;
-	display: block;
-	color: white;
+  text-align: left;
+  display: block;
+  color: white;
 }
 
 /* Desktop  and ipad view: “If [device width] is greater than or equal to 769px, then do {…}*/
 
 @media screen and (min-width: 769px) {
-	.form-control {
-		width: 50%;
-	}
+  .form-control {
+    width: 50%;
+  }
 
-	.btn-block {
-		width: 50% !important;
-	}
+  .btn-block {
+    width: 50% !important;
+  }
 
-	.pull-right {
-		margin-left: -120px;
-	}
+  .pull-right {
+    margin-left: -120px;
+  }
 }
 
 /*Mobile view: If [device width] is less than or equal to 767px, then do {…} */
 @media (max-width: 767px) {
-	.pull-right {
-		float: right;
-	}
+  .pull-right {
+    float: right;
+  }
 }

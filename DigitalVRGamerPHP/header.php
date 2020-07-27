@@ -26,20 +26,20 @@
     <div class="row">
         <header>
             <div class="wrapper">
-                <a href="index.php" class="logo" title="Digital VR Gamer"><img src="images/dvr.png" alt="logo"></a>
+                <a href="index" class="logo" title="Digital VR Gamer"><img src="images/dvr.png" alt="logo"></a>
 
                 <nav>
                     <a class="burger-nav"></a>
                     <h2>Main Navigation</h2>
                     <ul>
-                    <li class="active"><a href="aboutUs.php">About Us</a></li>
-                        <li class="active"><a href="augmentedReality.php">AR</a></li>
-                        <li><a href="virtualReality.php">VR</a></li>
-                        <li><a href="mixedReality.php" >MR</a></li>
-                        <li><a href="rentalServices.php">Rental Service</a></li>
-                        <li><a href="events.php">Events</a></li>
-                        <li><a href="itServices.php">IT Services</a></li>
-                        <li><a href="contactus.php">Contact Us</a></li>
+                    <li class="active"><a href="aboutUs">About Us</a></li>
+                        <li class="active"><a href="augmentedReality">AR</a></li>
+                        <li><a href="virtualReality">VR</a></li>
+                        <li><a href="mixedReality" >MR</a></li>
+                        <li><a href="rentalServices">Rental Service</a></li>
+                        <li><a href="events">Events</a></li>
+                        <li><a href="itServices">IT Services</a></li>
+                        <li><a href="contactus">Contact Us</a></li>
                     </ul>
                 </nav>
             </div>
