@@ -13,6 +13,7 @@
 
     <?php if (isset($_POST['submit'])) {
         $patientName = $_POST['patientName'];
+        //$date = date('d-m-Y', strtotime($_POST['date'])); // For converting date inot desired format
         $date = $_POST['date'];
         $partsOf = $_POST['partsOf'];
         $refByDoctor = $_POST['refByDoctor'];

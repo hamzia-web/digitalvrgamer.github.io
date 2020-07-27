@@ -50,10 +50,10 @@
 		<div class="row">   <!-- Grid row -->
 			<div class="col-md-6 mt-md-0 mt-3">   <!-- Grid column -->
 				<h5 class="text-uppercase font-weight-bold ">Address:</h5>
-				<p>Near Dr. Gargi Sinha Clinic</p>
-				<p>Hospital Road</p>
-				<p>Madhubani, Bihar</p>
-				<p>Pin- 847212</p>
+				<p><i>Near Dr. Gargi Sinha Clinic</i></p>
+				<p><i>Hospital Road</i></p>
+				<p><i>Madhubani- 847212 </i></p>
+				<p><i>Bihar</i></p>
 			</div>
 
 		<hr class="clearfix w-100 d-md-none pb-3">

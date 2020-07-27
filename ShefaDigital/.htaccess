@@ -1,0 +1,5 @@
+RewriteEngine on 
+RewriteRule ^index?$ index.php
+RewriteRule ^services?$ services.php
+RewriteRule ^patientForm?$ patientForm.php
+RewriteRule ^patientRecord?$ patientRecord.php

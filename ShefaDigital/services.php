@@ -18,7 +18,9 @@
         <div class="card mt-3">
             <div class="row text-black">
                 <div class="col-sm-12 col-md-8">
-                    <img src="images/chest-Xray.jpg" class="img-fluid">
+                    <div class="inner">
+                         <img src="images/chest-Xray.jpg" class="img-fluid">
+                    </div>
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <p class="mt-md-2 p-1">An X-ray machine is a device that transmits X-rays through the body, and helps create and document images on a film. 
@@ -33,7 +35,9 @@
         <div class="card">
             <div class="row text-black">
                 <div class="col-sm-12 col-md-8">
-                    <img src="images/plaster.jpg" class="img-fluid">
+                    <div class="inner">
+                         <img src="images/plaster.jpg" class="img-fluid">
+                    </div>
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <p class="mt-2 p-1">A broken bone is a common event. Given time and the right care, the bone is able to heal itself. 
@@ -50,7 +54,9 @@
         <div class="card">
             <div class="row text-black">
                 <div class="col-sm-12 col-md-8">
-                    <img src="images/drug1.jpg" class="img-fluid">
+                    <div class="inner">
+                        <img src="images/drug1.jpg" class="img-fluid">
+                    </div>
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <p class="mt-2 p-1">A patient may require medicines urgently at the most unexpected times. Exactly why we have 24/7 pharmacy services available for outpatients and in-patients requirement.
@@ -67,7 +73,9 @@
         <div class="card">
             <div class="row text-black">
                 <div class="col-sm-12 col-md-8">
-                    <img src="images/syringe1.jpg" class="img-fluid">
+                    <div class="inner">
+                        <img src="images/syringe1.jpg" class="img-fluid">
+                    </div>
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <p class="mt-2 p-1">
@@ -82,7 +90,9 @@
         <div class="card">
             <div class="row text-black">
                 <div class="col-sm-12 col-md-8">
-                    <img src="images/drug3.jpg" class="img-fluid">
+                    <div class="inner">
+                        <img src="images/drug3.jpg" class="img-fluid">
+                    </div>
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <p class="mt-2 p-1"><b>Shefa Drug Agency</b> distributors purchase medications directly from manufacturers, which in turn sells the medications to pharmacies.

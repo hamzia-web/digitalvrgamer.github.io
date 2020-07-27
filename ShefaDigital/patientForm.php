@@ -24,7 +24,7 @@
                 autofocus>
 
             <label>Date <span class="required">*</span></label>
-            <input type="date" name="date" class="form-control mb-4 customDate" required placeholder="dd-mm-yyyy"
+            <input type="text" name="date" class="form-control mb-4 customDate" required placeholder="dd-mm-yyyy"
                 oninvalid="this.setCustomValidity('Please select valid date')" oninput="this.setCustomValidity('')"
                 autofocus>
 

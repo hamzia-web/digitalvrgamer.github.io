@@ -33,8 +33,9 @@
      <div class="carousel-inner" role="listbox">
 
         <div class="carousel-item active">
-          <div class="view">
+          <div class="view overlay">
             <img class="img-fluid" src="images/machine1.jpg" alt="First slide">
+            <div class="mask flex-center rgba-stylish-strong"></div>
           </div>
           <div class="carousel-caption">
             <p><a href="services.php"><button type="button" class="btn btn-success btn-sm">Know More</button></a></p>
@@ -42,8 +43,9 @@
         </div>
 
         <div class="carousel-item">
-          <div class="view">
+          <div class="view overlay">
             <img class="img-fluid" src="images/report.jpg" alt="Second slide">
+            <!-- <div class="mask flex-center rgba-white-strong"></div> -->
           </div>
           <div class="carousel-caption">
             <p><a href="services.php"><button type="button" class="btn btn-success btn-sm">Know More</button></a></p>
@@ -51,8 +53,9 @@
         </div>
 
         <div class="carousel-item">
-          <div class="view">
+          <div class="view overlay">
             <img class="img-fluid" src="images/machine2.jpg" alt="Third slide">
+            <div class="mask flex-center rgba-teal-light"></div>
           </div>
           <div class="carousel-caption">
             <p><a href="services.php"><button type="button" class="btn btn-success btn-sm">Know More</button></a></p>
