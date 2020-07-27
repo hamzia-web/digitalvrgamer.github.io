@@ -1,0 +1,11 @@
+RewriteEngine on 
+RewriteRule ^aboutUs?$ aboutUs.html
+RewriteRule ^augmentedReality?$ augmentedReality.html
+RewriteRule ^confirmation?$ confirmation.html
+RewriteRule ^contactus?$ contactus.html
+RewriteRule ^events?$ events.html
+RewriteRule ^index?$ index.html
+RewriteRule ^itServices?$ itServices.html
+RewriteRule ^mixedReality?$ mixedReality.html
+RewriteRule ^rentalServices?$ rentalServices.html
+RewriteRule ^virtualReality?$ virtualReality.html
