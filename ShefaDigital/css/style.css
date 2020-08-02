@@ -68,10 +68,38 @@ footer{
   color: white;
   border-color: #00AADC;
   margin: 0px;
-  /* overflow: inherit; */
   z-index: 10;
   font-size: 1.15vw;
   box-shadow: 0px 7.5px 7.5px #93AAB6;
+}
+
+.logoText{
+  background-color: rgb(238, 106, 17);
+  color: white;
+  border-color: #00AADC;
+  margin: 0px;
+  z-index: 10;
+  box-shadow: 0px 7.5px 7.5px #93AAB6;
+  padding: 5px;
+  text-shadow: 2px 2px lightseagreen;
+}
+
+button.btn-default :hover {
+  background-color:rgb(238, 106, 17);
+  color: white;
+  border-color: #00AADC;
+  margin: 0px;
+  z-index: 10;
+  font-size: 1.15vw;
+  box-shadow: 0px 7.5px 7.5px #93AAB6;
+}
+
+/* WebKit desktop browsers add little up down arrows to number inputs called spinners. 
+You can turn them off visually like this */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
 }
 
 /* Desktop  and ipad view: “If [device width] is greater than or equal to 769px, then do {…}*/

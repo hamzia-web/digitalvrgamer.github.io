@@ -6,9 +6,8 @@
     <title>Confirmation</title>
 </head>
 <body>
-
+<!-- Including header and connection -->
 <?php include 'header.php'; ?>    
-
 <?php include 'connection.php'; ?>  
 
     <?php if (isset($_POST['submit'])) {
@@ -44,9 +43,6 @@
         echo "<span style='color: black;'/><p>Report: &nbsp;" .
             $report .
             '</span> </p></div> <br><br><br><br><br>';
-
-        // $dbconnect = mysqli_connect('localhost', 'root', '', 'shefadigital');
-        //"INSERT INTO shefadigitalxray(patientName, date, partsOf, refByDoctor, amount, due, report) VALUES ('', '$patientName', '$date', '$partsOf', '$refByDoctor', '$amount', '$due', '$report')";
 
         $sql_ins = "INSERT INTO `shefadigitalxray`(`sno`, `patientName`, `date`, `partsOf`, `refByDoctor`, `amount`, `due`, `report`) VALUES ('', '$patientName', '$date', '$partsOf', '$refByDoctor', '$amount', '$due', '$report')";
         $result = mysqli_query($connection, $sql_ins);

@@ -13,9 +13,9 @@
 $sqlQuery = 'SELECT * FROM shefadigitalxray';
 ($resultSet = mysqli_query($connection, $sqlQuery)) or
     die('database error:' . mysqli_error($conn));
-$patientData = [];
+$patients = [];
 while ($patient = mysqli_fetch_assoc($resultSet)) {
-    $patientData[] = $patient;
+    $patients[] = $patient;
 }
 ?>
 </body>
