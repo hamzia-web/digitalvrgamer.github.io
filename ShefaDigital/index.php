@@ -9,8 +9,6 @@
 </head>
 
 <body class="green lighten-5">
-
-<!-- Including Header -->
 <?php include 'header.php'; ?> 
 
    <article>
@@ -78,7 +76,6 @@
 </div><br><br> 
 <!--Carousel Wrapper-->
 
-<!-- Including Footer -->
 <?php include 'footer.php'; ?>
 
 </body>

@@ -7,7 +7,6 @@
 </head>
 
 <body>
-<!-- Including header -->
 <?php include 'header.php'; ?>   
 
 <!-- Patient form start -->
@@ -70,11 +69,8 @@
         <button class="btn btn-default btn-block js-btn-submit mt-4" type="submit" name="submit">Submit</button><br>
         <input class="btn btn-blue-grey clearForm" type="reset" value="Reset Form">
     </div>
-</form>
+</form><!-- Patient form ends -->
 
-<!-- Patient form ends -->
-
-<!-- Including Footer -->
 <?php include 'footer.php'; ?>    
     
 </body>

@@ -7,7 +7,6 @@
 </head>
 
 <body>
-<!-- Including header and export -->
 <?php include 'header.php'; ?>
 <?php include 'export.php'; ?>
 	
@@ -21,7 +20,7 @@
     </center>
 
     <!--table starts -->
-	<table id="example" class=" table table-bordered display nowrap mt-2" style="width:100%">
+	<table id="example" class=" table table-bordered display responsive nowrap mt-2" style="width:100%"> 
 		<thead class="thead-dark">
 			<tr>
 				<th><b>S.No.</b></th>
@@ -59,7 +58,7 @@
 <footer class="page-footer font-medium teal pt-4">
   <div class="container text-justify text-md-justify">
     <div class="row">   <!-- Grid row -->
-        <section class="col-md-6 mt-md-0 mt-3">   <!-- Grid column -->
+        <section class="col-md-7 mt-md-0 mt-3">   <!-- Grid column -->
           <address>
             <h5 class="text-uppercase font-weight-bold ">Address:</h5>
             <section class="font-italic">
@@ -73,7 +72,7 @@
 
       <hr class="clearfix w-100 d-md-none pb-3">
 
-      <section class="col-md-6 mb-md-0 mb-3"> <!-- Grid column -->
+      <section class="col-md-5 mb-md-0 mb-3"> <!-- Grid column -->
         <h5 class="text-uppercase font-weight-bold">About Us</h5>
         <p>
            <ul class="navbar-nav ml-auto">
@@ -101,8 +100,10 @@
 <!-- Footer ends -->
 
     <!-- js files for Datatables-->
+	<!-- Below one new js required for responsiveness,"dataTables.responsive.min.js"-->
 	<script src="js/datatableJs/jquery-3.5.1.js"></script>
-	<script src="js/datatableJs/jquery.dataTables.min.js"></script>
+	<script src="js/datatableJs/jquery.dataTables.min.js"></script> 
+    <script src="js/datatableJs/dataTables.responsive.min.js"></script>
 	<script src="js/datatableJs/dataTables.buttons.min.js"></script>
 	<script src="js/datatableJs/buttons.flash.min.js"></script>
 	<script src="js/datatableJs/jszip.min.js"></script>
@@ -120,6 +121,7 @@
 				]
 			});
 		 });
+
 	</script>
 
 </body>

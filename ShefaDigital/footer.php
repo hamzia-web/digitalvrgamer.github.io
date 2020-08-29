@@ -15,7 +15,7 @@
 <footer class="page-footer font-medium teal pt-4">
   <div class="container text-justify text-md-justify">
     <div class="row">   <!-- Grid row -->
-        <section class="col-md-6 mt-md-0 mt-3">   <!-- Grid column -->
+        <section class="col-md-7 mt-md-0 mt-3">   <!-- Grid column -->
           <address>
             <h5 class="text-uppercase font-weight-bold ">Address:</h5>
             <section class="font-italic">
@@ -29,7 +29,7 @@
 
       <hr class="clearfix w-100 d-md-none pb-3">
 
-      <section class="col-md-6 mb-md-0 mb-3"> <!-- Grid column -->
+      <section class="col-md-5 mb-md-0 mb-3"> <!-- Grid column -->
         <h5 class="text-uppercase font-weight-bold">About Us</h5>
         <p>
            <ul class="navbar-nav ml-auto">

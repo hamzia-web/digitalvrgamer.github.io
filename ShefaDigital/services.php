@@ -8,7 +8,6 @@
     
 </head>
 <body>
-<!-- Including header -->
 <?php include 'header.php'; ?>  
 
 <article>
@@ -123,7 +122,6 @@
     </div> <br><br>
     <!-- Body section end -->
 
-<!-- Including header -->
 <?php include 'footer.php'; ?>  
 
 </body>
