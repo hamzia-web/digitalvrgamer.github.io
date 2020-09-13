@@ -14,3 +14,16 @@ Steps:
 NOTE: Better to bookmark
 NOTE: Try not to refresh the confirmation page, otherwise duplicate entry will persist in DB
 
+How to change localhost to custom domain name:
+----------------------------------------------
+1. host file etry
+127.0.0.1       shefadigitalxray.com
+127.0.0.1       www.shefadigitalxray.com
+
+2. httpd--vhost.conf(C:\xampp\apache\conf\extra)
+<VirtualHost *:80>
+    ServerName www.shefadigitalxray.com
+	ServerAlias shefadigitalxray.com
+    DocumentRoot C:/xampp/htdocs/ShefaDigital
+</VirtualHost>
+
