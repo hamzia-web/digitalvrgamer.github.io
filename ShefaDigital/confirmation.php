@@ -7,12 +7,13 @@
 </head>
 <body>
 <!-- Including header and connection -->
-<?php include 'header.php'; ?>    
-<?php include 'connection.php'; ?>  
+<?php
+include 'header.php';
+include 'connection.php';
+?>  
 
     <?php if (isset($_POST['submit'])) {
         $patientName = $_POST['patientName'];
-        //$date = date('d-m-Y', strtotime($_POST['date'])); // For converting date inot desired format
         $date = $_POST['date'];
         $partsOf = $_POST['partsOf'];
         $refByDoctor = $_POST['refByDoctor'];
@@ -48,15 +49,17 @@
         $result = mysqli_query($connection, $sql_ins);
 
         if ($result) { ?>
-        <script>
-            console.log("Data inserted successfully");
-        </script>
+            <script>
+                console.log("Data inserted successfully");
+            </script>
         <?php } else { ?>
             <script>
                 console.log("Data not inserted successfully");
             </script>
        <?php }
     } ?>
+
+     <!-- Mail Sending logic: Copy content from sendMail.php, arrange PHP content and paste below -->
 
 <!-- Including Footer -->
 <?php include 'footer.php'; ?>   

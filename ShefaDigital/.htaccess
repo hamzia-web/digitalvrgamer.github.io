@@ -1,5 +1,16 @@
+# Turn on rewrite engine to write our url for project url routing
 RewriteEngine on 
+
+# Now rule for every page where you wanna apply this
+# ^ means starting with this word... index, services that rule will be applied
 RewriteRule ^index?$ index.php
 RewriteRule ^services?$ services.php
 RewriteRule ^patientForm?$ patientForm.php
 RewriteRule ^patientRecord?$ patientRecord.php
+
+# sno is numeric so let append the rule. After / sno as numeric will be place, + means unknown length
+# $1 means the first parameter on update.php will be sno. We can append multiple with & operator
+#RewriteRule ^update/([0-9]+) update.php?sno=$1
+
+ErrorDocument 404 /ShefaDigital/404Page.php
+

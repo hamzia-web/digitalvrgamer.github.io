@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Patient Record</title>
+	<title>Patient Record</title>
 </head>
 
 <body>
@@ -23,27 +23,37 @@
 	<table id="example" class=" table table-bordered display responsive nowrap mt-2" style="width:100%"> 
 		<thead class="thead-dark">
 			<tr>
-				<th><b>S.No.</b></th>
-				<th><b>Patient Name</b></th>
-				<th><b>Date</b></th>
-				<th><b>Part Of</b></th>
-				<th><b>Referred by Doctor</b></th>
-				<th><b>Amount</b></th>
-				<th><b>Due</b></th>
-				<th><b>Report</b></th>
+				<th class="text-center"><b>S.No.</b></th>
+				<th class="text-center"><b>Patient Name</b></th>
+				<th class="text-center"><b>Date</b></th>
+				<th class="text-center"><b>Part Of</b></th>
+				<th class="text-center"><b>Referred by Doctor</b></th>
+				<th class="text-center"><b>Amount</b></th>
+				<th class="text-center"><b>Due</b></th>
+				<th class="text-center"><b>Report</b></th>
+				<th class="text-center"><b>Update</b></th>
+				<th class="text-center"><b>Delete</b></th>
 			</tr>
 		</thead>
 		<tbody>
 			<?php foreach ($patients as $patient) { ?>
 			<tr>
-				<td><?php echo $patient['sno']; ?></td>
-				<td><?php echo $patient['patientName']; ?></td>
-				<td><?php echo $patient['date']; ?></td>
-				<td><?php echo $patient['partsOf']; ?></td>
-				<td><?php echo $patient['refByDoctor']; ?></td>
-				<td><?php echo $patient['amount']; ?></td>
-				<td><?php echo $patient['due']; ?></td>
-				<td><?php echo $patient['report']; ?></td>
+				<td class="text-center"><?php echo $patient['sno']; ?></td>
+				<td class="text-center"><?php echo $patient['patientName']; ?></td>
+				<td class="text-center"><?php echo $patient['date']; ?></td>
+				<td class="text-center"><?php echo $patient['partsOf']; ?></td>
+				<td class="text-center"><?php echo $patient['refByDoctor']; ?></td>
+				<td class="text-center"><?php echo $patient['amount']; ?></td>
+				<td class="text-center"><?php echo $patient['due']; ?></td>
+				<td class="text-center" ><?php echo $patient['report']; ?></td>
+				<td class="text-center"><a href="update.php?sno=<?php echo $patient['sno']; ?>"
+				     data-toggle="tooltip" data-placement="top" title="Update">
+				     <i class="fa fa-edit" aria-hidden="true" title="Update"></i></a></td>
+	           <td class="text-center"><a onclick='javascript:confirmationDelete($(this));return false;' 
+			          href="delete.php?sno=<?php echo $patient['sno']; ?>" 
+					  data-toggle="tooltip" data-placement="top" title="Delete">
+					  <i class="fa fa-trash" aria-hidden="true"></i></a>
+			   </td>
 			</tr>
 			<?php } ?>
 		</tbody>
@@ -122,6 +132,12 @@
 			});
 		 });
 
+	function confirmationDelete(anchor)
+	{
+		var conf = confirm('Are you sure want to delete this record?');
+	   if(conf)
+			window.location=anchor.attr("href");
+	}
 	</script>
 
 </body>

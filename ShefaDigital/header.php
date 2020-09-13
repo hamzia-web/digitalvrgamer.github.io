@@ -10,6 +10,7 @@
      <link href="css/bootstrap.css" type="text/css" rel="stylesheet">
      <link href="css/mdb.css" type="text/css" rel="stylesheet">
      <link href="css/style.css" type="text/css" rel="stylesheet">
+     <link href="css/all.min.css" type="text/css" rel="stylesheet">
 
      <!-- Below one new css added for responsiveness,"responsive.dataTables.min.css"-->
      <link href="css/jquery.dataTables.min.css" type="text/css" rel="stylesheet">

@@ -12,4 +12,5 @@ Steps:
 3. Database: http://localhost/phpmyadmin -> Expand(+) shefaDigital at left side -> click shefadigitalxray to view/modify table data  
 
 NOTE: Better to bookmark
+NOTE: Try not to refresh the confirmation page, otherwise duplicate entry will persist in DB
 

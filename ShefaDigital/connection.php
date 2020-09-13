@@ -7,6 +7,11 @@ $password = '';
 $server = 'localhost';
 $database = 'shefadigital';
 
-$connection = mysqli_connect($server, $username, $password, $database);
-
+try {
+    $connection = mysqli_connect($server, $username, $password, $database);
+} catch (Exception $e) {
+    //echo $e;
+    echo 'Failed to connect: ' . $mysqli->connect_error;
+    exit();
+}
 ?>

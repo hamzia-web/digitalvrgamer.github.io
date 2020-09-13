@@ -33,7 +33,7 @@
             oninvalid="this.setCustomValidity('Please select valid date')" oninput="this.setCustomValidity('')"
             autofocus>
 
-        <label>Parts of X-Ray<span class="required">*</span></label>
+        <label>Part of X-Ray<span class="required">*</span></label>
         <select class="browser-default custom-select mb-4" name="partsOf" required>
             <option value="" disabled selected>Select parts of X-Ray</option>
             <option value="Chest PA">Chest PA</option>
