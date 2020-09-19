@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Header</title>
 
-     <!--Import Google Icon Font, materialize.css-->
+     <!--Import Font awesome, materialize.css-->
      <link href="css/jquery-ui.min.css" type="text/css" rel="stylesheet">
      <link href="css/bootstrap.css" type="text/css" rel="stylesheet">
      <link href="css/mdb.css" type="text/css" rel="stylesheet">
-     <link href="css/style.css" type="text/css" rel="stylesheet">
      <link href="css/all.min.css" type="text/css" rel="stylesheet">
-
+     <link href="css/style.css" type="text/css" rel="stylesheet">
+    
      <!-- Below one new css added for responsiveness,"responsive.dataTables.min.css"-->
      <link href="css/jquery.dataTables.min.css" type="text/css" rel="stylesheet">
      <link href="css/responsive.dataTables.min.css" type="text/css" rel="stylesheet">
